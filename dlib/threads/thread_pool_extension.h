@@ -15,7 +15,7 @@
 #include "auto_mutex_extension.h"
 #include "../uintn.h"
 #include "../array.h"
-
+#include "mingw.thread.h"
 namespace dlib
 {
 

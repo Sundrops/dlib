@@ -10,7 +10,7 @@
 #include "interpolation.h"
 #include "../image_processing/full_object_detection.h"
 #include "../rand.h"
-
+#include "mingw.mutex.h"
 namespace dlib
 {
     class random_cropper
