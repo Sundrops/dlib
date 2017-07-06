@@ -3,12 +3,12 @@
 
 # build for windows
 下载cmake，利用cmake-gui生成makefile，具体config选择mingw makefile，然后直接generate
-cd build
-mingw32-make
+- cd build
+- mingw32-make
 
 # build for linux(不变)
-cd build
-cmake ..
-cmake --build . --config Release
+- cd build
+- cmake ..
+- cmake --build . --config Release
 
 
